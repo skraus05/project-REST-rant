@@ -36,3 +36,17 @@ Some of the remaining parts will include:
 - [] implementing delete functionality and adding a DELETE route
 - [] implementing edit for and functionality, adding a PUT route
 
+At the end of part 9, this is what I've accomplished so far:
+
+- [x] Adding some style with CSS
+- [x] Forms, validation, and navigation
+- [x] Implementing delete functionality and adding a DELETE route
+- [x] Implementing edit form and functionality, adding a PUT route
+- [x] Implementing the Mongoose ODM
+- [x] Seeding data, validations, and helper methods
+
+Some of the remaining parts will include:
+
+- [] Adding commentary: rants and raves
+- [] Populating data for star ratings
+- [] Deploying the project
