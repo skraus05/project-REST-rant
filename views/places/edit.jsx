@@ -1,5 +1,6 @@
 const React = require('react');
 const Def = require('../default')
+const data = []
 
 function edit_form({ place }) {
     //const handleFormSubmit = (event) => {
@@ -32,6 +33,13 @@ function edit_form({ place }) {
                     <div className="form-group">
                         <label htmlFor="cuisines">Cuisines</label>
                         <input className="form-control" id="cuisines" name="cuisines" value={place.cuisines} required />
+                    </div>
+                    <div className='form-group col-sm-4'>
+                        <label htmlFor='founded'>Founded</label>
+                        <input className='form-control'
+                        id="founded"
+                        name='founded'
+                        value={place.founded}/>
                     </div>
                     <input className="btn btn-primary" type="submit" value="Submit" />
                 </form>
